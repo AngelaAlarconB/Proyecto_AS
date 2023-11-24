@@ -1,7 +1,16 @@
 # Proyecto_AS
-Proyecto Análisis de Señales : Análisis de Emociones en Audio y texto.
+Proyecto Análisis de Señales : Análisis de Emociones en Audio y Texto.
 
-Disponemos de dos carpetas: filtros y modelo.
+Disponemos de dos carpetas: "filtros" y "modelo".
+
+En la carpeta "filtro" se tiene:
+- "wavelets" : carpeta con varios audios obtenidos tras filtrar el audio "audio70_as.
+- "audio_transformada.wav" : audio obtenido al filtrar mediante la TF.
+- "audio70_asco.wav" : audio que se va filtrar
+- "audio70_asco_filtro_adaptativo.wav" : audio obtenido al filtrar mediante el filtro adaptativo.
+- "audio70_asco_filtro_Butterworth.wav" : audio obtenido al filtrar mediante el Filtro Butterworth.
+- "audio70_asco_filtro_reduccion_de_silencio.wav" : audio obtenido al filtrar mediante el filtro de eliminación de silencio.
+- "Filtrado_audio.ipynb" : Notebook que carga el audio "audio70_asco.wav" y le aplica los diferentes filtros.
 
 En la carpeta "modelo" se tiene:
 - "audio_files" : carpeta con todos los audios dispuestos por emociones.
